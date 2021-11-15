@@ -551,6 +551,7 @@ main > h1 {
   display: flex;
   margin-left: -30px;
   margin-top: -20px;
+  z-index: -1;
 }
 
 #setinhaorigi{
@@ -558,14 +559,44 @@ main > h1 {
   bottom: -20px;
 }
 
+#setinharural{
+  transform: rotate(-90deg);
+  margin-bottom: -110px;
+}
+
+
 #setinhaorigi > img {
   margin-top: -40px;
+  z-index: -2;
+}
+
+.info{
+  max-width: 300px;
 }
 
 .setinha > img {
   height: 40px;
   width: 60px;
-  margin-top: 32px;
+  margin-top: 32px;~
+  z-index: -1;
+}
+
+#setinhaambar{
+  left: 40px;
+  margin-left: 160px;
+  transform: rotate(180deg);
+  margin-bottom: -160px;
+}
+
+#setinhaflora{
+  left: 40px;
+  margin-left: 160px;
+  transform: rotate(180deg);
+  margin-bottom: -80px;
+}
+
+#setinhaeldorado{
+  margin-top: 80px;
 }
 
 .swiftcontainer {
@@ -607,6 +638,28 @@ main > h1 {
   margin-top: 95px;
 }
 
+#florainfo{
+  display: none;
+  margin-right: 40px;
+}
+
+#ambarinfo{
+  display: none;
+  margin-top: 120px;
+  margin-right: 40px;
+}
+
+#ruralinfo{
+  display: none;
+  margin-right: 20px;
+}
+
+#eldoradoinfo{
+  display: none;
+  margin-top: 110px;
+}
+
+
 @media only screen and (min-width:325px) and (max-width: 420px){
   .grid-parceiros{
     grid-template-columns: repeat(3, 26vw);
@@ -615,6 +668,43 @@ main > h1 {
 
   #textinhosuper{
   margin-left: 45vw;
+  }
+
+  #ambarinfo{
+    margin-right: 30vw;
+  }
+
+  #infoambar{
+    margin-top: 10vh;
+  }
+  
+  #setinhaambar{
+    margin-right: -50px;
+  }
+
+    #florainfo{
+    margin-right: 30vw;
+  }
+
+    #infoambar{
+    margin-top: 10vh;
+  }
+  
+  #setinhaflora{
+    margin-right: -50px;
+  }
+
+  #setinhaorigi{
+    margin-bottom: -13vw;
+    margin-right: 15vw;
+  }
+
+  #origiinfo{
+    margin-top: 22vh;
+    margin-right: 7vw;
+  }
+  #infooriginal{
+    margin-top: 1vh;
   }
 }
 
@@ -670,10 +760,68 @@ main > h1 {
   margin-top: 2vh;
 }
 
+
+#rurallogotipo {
+  height: 12vh;
+  margin-left: 2.5vw;
+  margin-top: 3vh;
+}
+
 .cardinfo{
   margin-right: 10vw;
 }
 
+  #eldoradoinfo{
+  margin-top: 35vh;
+  margin-right: 6vw;
+}
+
+  #ambarinfo{
+    margin-right: 20vw;
+  }
+
+  #infoambar{
+    margin-top: 10vh;
+  }
+  
+  #setinhaambar{
+    margin-right: -50px;
+    margin-top: 5vh;
+  }
+
+    #ambarlogotipo{
+    height: 7.5vh;
+    margin-top: 5vh;
+    margin-left: 2vw;
+  }
+
+  #eldoradologotipo{
+    height: 6vh;
+    margin-top: 5vh;
+    margin-left: 2vw;
+  }
+
+    #florainfo{
+    margin-right: 20vw;
+    margin-top: -6vh;
+  }
+  #setinhaflora{
+    margin-right: -50px;
+    margin-top: 5vh;
+  }
+
+    #setinhaorigi{
+    margin-bottom: -16vw;
+    margin-right: 15vw;
+  }
+
+  #origiinfo{
+    margin-top: 27vh;
+    margin-right: 7vw;
+  }
+  #infooriginal{
+    margin-top: 2vh;
+  }
 }
 
 @media only screen and (min-width:500px) {
@@ -716,6 +864,46 @@ main > h1 {
   margin-left: 5vw;
 }
 
+#jbsinfo{
+  margin-right: 13vw;
+}
+
+#picinfo{
+  margin-top: 26vh;
+}
+
+  #eldoradoinfo{
+  margin-top: 35vh;
+  margin-right: 12vw;
+}
+  #ambarinfo{
+    margin-top: 20vw;
+  }
+
+  
+#rurallogotipo {
+  height: 12vh;
+  margin-left: 3.5vw;
+  margin-top: 3vh;
+}
+
+
+#ambarlogotipo{
+    height: 8vh;
+    margin-top: 5vh;
+    margin-left: 3vw;
+  }
+
+
+    #eldoradologotipo{
+    height: 7vh;
+    margin-top: 5vh;
+    margin-left: 1vw;
+  }
+  
+  #origiinfo{
+    margin-top: 31vh;
+  }
 }
 
 @media only screen and (min-width:660px) and (max-width:1700px) {
@@ -763,6 +951,40 @@ main > h1 {
   margin-left: 6vw;
 }
 
+#jbsinfo{
+  margin-right: 13vw;
+}
+
+  #ambarinfo{
+    margin-top: 17vw;
+  }
+
+  
+#rurallogotipo {
+  height: 13vh;
+  margin-left: 5vw;
+  margin-top: 3vh;
+}
+
+#ambarlogotipo{
+    height: 9vh;
+    margin-top: 6vh;
+    margin-left: 4.3vw;
+  }
+  
+    #eldoradologotipo{
+    height: 8vh;
+    margin-top: 5vh;
+    margin-left: 3vw;
+  }
+
+    #origiinfo{
+    margin-top: 35vh;
+  }
+
+  #infooriginal{
+    margin-top: 4.9vh;
+  }
 }
 
 
@@ -784,11 +1006,6 @@ main > h1 {
     min-height: 50vh;
   }
 
-  .friboicontent{
-    display: flex;
-    flex-direction: column;
-  }
-
   .titulosimg {
     font-size: 3vh;
     line-height: 3vh;
@@ -799,6 +1016,7 @@ main > h1 {
   #textoprincipal, #textinhosuper{
     font-size: 4vh;
     line-height: 4vh;
+    margin-left: 6vw;
   }
 
   #textinhosuper{
@@ -852,7 +1070,45 @@ main > h1 {
   margin-top: 3vh;
 }
 
+#jbsinfo{
+  margin-right: 25vw;
+}
 
+#picinfo{
+  margin-top: 32vh;
+  margin-right: 25vw;
+}
+
+  #eldoradoinfo{
+  margin-top: 50vh;
+  margin-right: 25vw;
+}
+
+#rurallogotipo {
+  height: 16vh;
+  margin-left: 4vw;
+}
+
+#ambarlogotipo{
+    height: 10vh;
+    margin-top: 6vh;
+    margin-left: 4vw;
+  }
+
+    
+    #eldoradologotipo{
+    height: 9vh;
+    margin-top: 7vh;
+    margin-left: 2vw;
+  }
+      #origiinfo{
+    margin-top: 36vh;
+    margin-right: 15vw;
+  }
+
+    #infooriginal{
+    margin-top: 9vh;
+  }
 }
 
 @media only screen and (min-width:832px) and (max-width:1700px) {
@@ -864,50 +1120,117 @@ main > h1 {
   }
 
   .grid-parceiros {
-  grid-template-columns: repeat(3, 26vw);
-  grid-template-rows: repeat(3, 34vh);
-  grid-gap: 2vw;
-  margin-left: 7vw;
-  margin-top: 12px;
-  z-index: 3;
-}
-  .titulosimg{
-    line-height: 3.4vh;
-    font-size: 4vh;
+    grid-template-columns: repeat(3, 26vw);
+    grid-template-rows: repeat(3, 34vh);
+    grid-gap: 2vw;
+    margin-left: 7vw;
+    margin-top: 12px;
+    z-index: 3;
   }
 
+    .titulosimg{
+      line-height: 3.4vh;
+      font-size: 4vh;
+    }
+
   #jbslogotipo {
-  height: 9vh;
-  margin: 0 auto;
-  margin-top: 52px;
-  margin-right: 2vw;
-  margin-left: 4.7vw;
-}
+    height: 9vh;
+    margin: 0 auto;
+    margin-top: 52px;
+    margin-right: 2vw;
+    margin-left: 4.7vw;
+  }
 
   #originallogotipo {
-  height: 9vh;
-  margin-top: 8vh;
-  margin-left: 2.5vw;
+    height: 9vh;
+    margin-top: 8vh;
+    margin-left: 2.5vw;
+  }
+
+
+  #pplogotipo {
+    height: 9vh;
+    margin-top: 9vh;
+    margin-left: 5vw;
+  }
+
+  #floralogotipo {
+    height: 16vh;
+    margin-left: 7vw;
+    margin-top: 4vh;
+  }
+
+  .estitulosfriboi {
+    font-size: 2.5vh;
+  }
+
+  #picinfo{
+  margin-top: 37vh;
+  margin-right: 25vw;
+}
+
+#jbsinfo{
+  margin-right: 25vw;
 }
 
 
-#pplogotipo {
-  height: 9vh;
-  margin-top: 9vh;
-  margin-left: 5vw;
+  #eldoradoinfo{
+  margin-top: 56vh;
+  margin-right: 25vw;
 }
 
-#floralogotipo {
-  height: 16vh;
-  margin-left: 7vw;
-  margin-top: 4vh;
+#rurallogotipo {
+  height: 17vh;
+  margin-top: 5vh;
+  margin-left: 4.8vw;
 }
 
-.estitulosfriboi {
-  font-size: 2.5vh;
-}
+#ambarlogotipo{
+    height: 11vh;
+    margin-top: 8vh;
+    margin-left: 4vw;
+  }
+
+      
+    #eldoradologotipo{
+    height: 10vh;
+    margin-top: 8vh;
+    margin-left: 3vw;
+  }
+  #jftextoprincipal{
+  font-size: 3vh
+  }
+
+        #origiinfo{
+    margin-top: 30vh;
+    margin-right: 15vw;
+  }
+
+      #infooriginal{
+    margin-top: 12vh;
+  }
 
 }
+
+@media only screen and (min-width:870px) and (max-width:1700px) {  
+          #origiinfo{
+    margin-top: 30vh;
+    margin-right: 15vw;
+  }
+
+      #infooriginal{
+    margin-top: 14vh;
+  }
+
+  @media only screen and (min-width:944px) and (max-width:1700px) {  
+      #infooriginal{
+    margin-top: 16vh;
+  }
+
+    @media only screen and (min-width:984px) and (max-width:1700px) {  
+      #infooriginal{
+    margin-top: 18vh;
+  }
 
 @media only screen and (min-width:1050px) and (max-width:1700px) {
     .botaomais{
@@ -923,9 +1246,14 @@ main > h1 {
 }
 
   #originallogotipo {
-  height: 9vh;
+  height: 10vh;
   margin-top: 8vh;
-  margin-left: 4.8vw;
+  margin-left: 5vw;
+}
+
+  #floralogotipo {
+  height: 18vh;
+  margin-left: 6vw;
 }
 
 #pplogotipo {
@@ -933,7 +1261,59 @@ main > h1 {
   margin-top: 9vh;
   margin-left: 5vw;
 }
+
+#rurallogotipo {
+  height: 19vh;
+  margin-top: 4vh;
+  margin-left: 6vw;
 }
+
+#ambarlogotipo{
+    height: 13vh;
+    margin-top: 8vh;
+    margin-left: 5vw;
+  }
+
+      #eldoradologotipo{
+    height: 13vh;
+    margin-top: 8vh;
+    margin-left: 2vw;
+  }
+          #origiinfo{
+    margin-top: 55vh;
+    margin-right: 8vw;
+  }
+
+    #picinfo{
+  margin-right: 40vw;
+}
+
+#jbsinfo{
+  margin-right: 40vw;
+}
+
+
+  #eldoradoinfo{
+    margin-bottom: -4vh;
+  margin-right: 40vw;
+}
+
+      #setinhaorigi{
+    margin-bottom: -17vw;
+    margin-right: 15vw;
+  }
+
+        #infooriginal{
+    margin-top: 22vh;
+  }
+
+      #origiinfo{
+    margin-top: 30vh;
+    margin-right: 18vw;
+  }
+}
+
+
 
 @media only screen and (min-width:1200px) and (max-width:1700px) {  
   #jbslogotipo {
@@ -985,5 +1365,38 @@ main > h1 {
 #eldoradocard:hover {
   background: #3b8081;
 }
+
+#rurallogotipo {
+  height: 20vh;
+  margin-top: 4vh;
+  margin-left: 6vw;
 }
 
+#ambarlogotipo{
+    height: 13vh;
+    margin-top: 7vh;
+    margin-left: 6vw;
+  }
+
+    #eldoradologotipo{
+    height: 13vh;
+    margin-top: 8vh;
+    margin-left: 4vw;
+  }
+
+          #infooriginal{
+    margin-top: 24vh;
+  }
+
+      #origiinfo{
+    margin-top: 32vh;
+    margin-right: 24vw;
+  }
+
+        #setinhaorigi{
+    margin-bottom: -12vw;
+    margin-right: 15vw;
+  }
+}
+
+}
