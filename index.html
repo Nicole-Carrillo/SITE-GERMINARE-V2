@@ -20,21 +20,41 @@
 
     <main>
       <img src="/img/logos/logojf.png" alt="logo empresa jf" class="logozinho">
-      <h1 id="jftextoprincipal">Empresas do GRUPO J&F</h1>
+      <h1 class="titulosimg" id="jftextoprincipal">Empresas do GRUPO J&F</h1>
       <p id="jftextoprincipal">A J&F está presente em 190 países, com mais de 250 mil colaboradores no mundo. Suas empresas atuam nas áreas de
       alimentos, celulose, energia, serviços financeiros, comunicação, cosméticos e higiene e limpeza.</p>
       <img src="/img/bg/parceirosbg.png" alt="fabrica jbs ao fundo" class="fundo">
 
+            <div class="cardinfo" id="jbsinfo">
+              <div class="setinha"><img src="/img/arrow.svg" alt=""></div>
+              <p class="info">A JBS é uma companhia de alimentos, que além de ser a maior processadora de proteína animal do mundo,
+                é também a
+                segunda
+                maior produtora global de alimentos. A Companhia possui um portfólio de marcas reconhecidas pela excelência, como
+                Friboi, Moy Park, Pilgrim’s Pride, Primo, Seara, Swift, Gold’n Plump, que atendem mais de 190 nacionalidades em todo
+                o
+                mundo.</p>
+            </div>
+
       <div class="grid-parceiros">
         <div class="grid-item" id="jbscard">
-          <button class="botaomais">
+          <button class="botaomais" onclick="abrirJbs()">
             <img src="/img/addbtn.svg" alt="botao adicionar">
           </button>
           <img id="jbslogotipo" class='logotipo' src="./img/logos/jbslogo.png" alt="logotipo jbs cinza e branco">
         </div>
 
+
+        <div class="cardinfo" id="origiinfo">
+          <div class="setinha" id="setinhaorigi"><img src="/img/arrow.svg" alt=""></div>
+          <p class="info" id="infooriginal">O Banco Original é o primeiro banco brasileiro 100% digital. A instituição oferece produtos e serviços inovadores, com a
+          mais alta tecnologia em segurança e as práticas mais modernas do mercado financeiro. Presente em 100% dos municípios do
+          Brasil, atua nos segmentos varejo, corporate e agronegócio.
+            mundo.</p>
+        </div>
+
         <div class="grid-item" id="originalcard">
-          <button class="botaomais">
+          <button class="botaomais" onclick="abrirOrigi()">
             <img src="/img/addbtn.svg" alt="botao adicionar">
           </button>
           <img id="originallogotipo" src="./img/logos/originallogo.png" alt="logotipo banco original branco">
@@ -47,8 +67,16 @@
           <img id="floralogotipo" src="./img/logos/floralogo.png" alt="">
         </div>
 
+        <div class="cardinfo" id="picinfo">
+          <div class="setinha" id="setinhapic"><img src="/img/arrow.svg" alt=""></div>
+          <p class="info" id="infopic">O PicPay conhecido como líder na revolução dos meios de pagamento no Brasil, é pioneiro no mercado de carteiras digitais
+          e no uso do QR Code no país. A empresa trabalha para aumentar continuamente sua base de usuários e para elevar a oferta
+          de soluções financeiras que atendam às necessidades do seu público, transformando o PicPay no primeiro “super app
+          financeiro”..</p>
+        </div>
+
         <div class="grid-item" id="picpaycard">
-          <button class="botaomais">
+          <button class="botaomais"  onclick="abrirPic()">
             <img src="/img/addbtn.svg" alt="botao adicionar">
           </button>
           <img id="pplogotipo" src="./img/logos/picpaylogo.png" alt="logotipo aplicativo picpay">
@@ -74,6 +102,9 @@
           <img id="eldoradologotipo" src="./img/logos/eldoradologo.png" alt="logotipo">
         </div>
       </div>
+
+
+
     <div class="navezinha" id="estaginho">
       <div id="quadradoazul"></div>
       <p>Estágios</p>
@@ -105,63 +136,153 @@
       </div>
     </div>
 
-<div class="swiftlabel">
-  <div class="estagiossufit">
-    <label class="estitulosswift" for="swift">
-      <span style="color: #F04E29; text-transform: uppercase;">
-        swift &nbsp; -
-      </span>
-      &nbsp; Líder de Vendas
-    </label>
-    <img id="logotiposwift" src="/img/logos/swiftlogo.png" alt="logo da empresa swift cor branca">
-    <p id="swiftestagiop">
-      No primeiro ano dentro com as aulas práticas, os alunos atuam como vendedores nas lojas Swift, exercendo as
-      atividades
-      de atendimento ao cliente e organização da loja. Essa etapa agrega muita experiência prática à vida dos jovens,
-      fazendo
-      com que tenham mais desenvoltura e tino comercial para vender os produtos. O objetivo desse estágio é fazer com
-      que os
-      alunos entendam a base operacional de uma grande empresa.
-    </p>
-  </div>
-</div>
-<div class="friboilabel">
-  <div class="estagiosfriboi">
-    <label class="estitulosfriboi" for="friboifloraseara">
-      <span style="color: #C71C23; text-transform: uppercase;">
-        seara, friboi e flora &nbsp; - 
-      </span>
-      &nbsp; Vendedor Externo
-    </label>
-    <img id="logotiposwift" src="/img/logos/friboilogo.png" alt="logo da empresa swift cor branca">
-    <p id="swiftestagiop">
-      Já adaptados ao ambiente empresarial, os alunos iniciam o 2° estágio com as vendas externas para pequenos e médios
-      varejos. Nesse momento, adquirem habilidades de negociação e aprimoram seu tino comercial, visto que visitam seus
-      clientes varejistas e constroem uma relação de vendas sólida e transparente. O estágio de vendas externas foi estipulado
-      para gerar autonomia e responsabilidade nos alunos, assim eles o realizam nas empresas: Seara, Friboi e Flora.
-    </p>
-  </div>
-</div>
-<div class="swiftlabel">
-  <div class="estagiossufit">
-    <label class="estitulosswift" for="swift">
-      <span style="color: #F04E29; text-transform: uppercase;">
-        swift &nbsp; -
-      </span>
-      &nbsp; Gerente de Loja
-    </label>
-    <img id="logotiposwift" src="/img/logos/swiftlogo.png" alt="logo da empresa swift cor branca">
-    <p id="swiftestagiop">
-      No primeiro ano dentro com as aulas práticas, os alunos atuam como vendedores nas lojas Swift, exercendo as
-      atividades
-      de atendimento ao cliente e organização da loja. Essa etapa agrega muita experiência prática à vida dos jovens,
-      fazendo
-      com que tenham mais desenvoltura e tino comercial para vender os produtos. O objetivo desse estágio é fazer com
-      que os
-      alunos entendam a base operacional de uma grande empresa.
-    </p>
-  </div>
+    <div class="swiftcontainer">
+        <label class="estitulosfriboi" for="swift">
+          <span style="color: #F04E29; text-transform: uppercase;">
+            swift &nbsp; -
+          </span>
+          &nbsp; Líder de Vendas
+        </label>
+        <div class="friboicontent" >
+        <img id="logotiposwift" src="/img/logos/swiftlogo.png" alt="logo da empresa swift cor branca">
+        
+        <p class="textosestagios">
+          No primeiro ano dentro com as aulas práticas, os alunos atuam como vendedores nas lojas Swift, exercendo as
+          atividades
+          de atendimento ao cliente e organização da loja. Essa etapa agrega muita experiência prática à vida dos jovens,
+          fazendo
+          com que tenham mais desenvoltura e tino comercial para vender os produtos. O objetivo desse estágio é fazer com
+          que os
+          alunos entendam a base operacional de uma grande empresa.
+        </p>
+        </div>
+      </div>
+    </div>
 
+    <div class="friboicontainer">
+      <label class="estitulosfriboi" for="friboifloraseara">
+        <span style="color: #C71C23; text-transform: uppercase;">
+          seara, friboi e flora &nbsp; - 
+        </span>
+        &nbsp; Vendedor Externo
+      </label>
+      <div class="friboicontent">
+        <div class="loguinhos" >
+          <img class="imgfribasbg" src="/img/logos/friboilogo.png" alt="logo da empresa swift cor branca">
+          <img class="imgfribasbg" id="searaloguinho" src="/img/logos/searalogo.png" alt="logo seara">
+          <img class="imgfribasbg" src="/img/logos/floralogo.png" alt="flora logo">
+        </div>
+        <p class="textosestagios">
+          Já adaptados ao ambiente empresarial, os alunos iniciam o 2° estágio com as vendas externas para pequenos e médios
+          varejos. Nesse momento, adquirem habilidades de negociação e aprimoram seu tino comercial, visto que visitam seus
+          clientes varejistas e constroem uma relação de vendas sólida e transparente. O estágio de vendas externas foi estipulado
+          para gerar autonomia e responsabilidade nos alunos, assim eles o realizam nas empresas: Seara, Friboi e Flora.
+        </p>
+      </div>
+    </div>
+
+    <div class="swiftcontainer">
+        <label class="estitulosfriboi" for="swift">
+          <span style="color: #F04E29; text-transform: uppercase;">
+            swift &nbsp; -
+          </span>
+          &nbsp; Gerente de Loja
+        </label>
+        <div class="friboicontent" >
+        <img id="logotiposwift" src="/img/logos/swiftlogo.png" alt="logo da empresa swift cor branca">
+        
+        <p class="textosestagios">
+          Após as experiências de vendas, os alunos vão gerir uma loja e assumir uma equipe de funcionários. Nessa etapa, o
+          estudante integra todos os conhecimentos e habilidades adquiridos durante os estágios e aulas e aplica no gerenciamento
+          de uma das unidades das lojas Swift. Essa fase tem como principal objetivo fazer com que o aluno coloque em prática
+          todos os conhecimentos adquiridos durante os anos na Germinare e conquiste crescimento profissional com as habilidades
+          desenvolvidas. Os estágios durante o ensino médio são apenas a porta de entrada para aqueles que querem ingressar em
+          grandes empresas após completar o curso escolar, tendo em vista que a Germinare trilha um plano de carreira para cada
+          aluno, de acordo com seu perfil profissional.
+        </p>
+        </div>
+      </div>
+      </div>
+
+    <div class="origicontainer">
+      <label class="estitulosfriboi" for="friboifloraseara">
+        <span style="color: #6CB349; text-transform: uppercase;">
+          banco original &nbsp; -
+        </span>
+        &nbsp; Analista Bancário
+      </label>
+      <div class="friboicontent">
+          <img id="logotiporigi" src="/img/logos/originallogo.png" alt="">
+        
+        <p class="textosestagios">
+          Alguns alunos do 9° e 1° ano foram convocados, de acordo com as suas habilidades e interesses, para ingressarem na
+          trajetória de finanças no Banco Original. O intuito é promover experiências enriquecedoras para a carreira profissional
+          dentro de uma instituição financeiro. Com isso, os estudantes passarão por diversas áreas, incluindo: Seguros, Cartões,
+          Tesouraria, entre outras para aprender como cada setor contribui para o funcionamento da empresa.
+        </p>
+      </div>
+      </div>
+    </div>
+
+        <div class="piccontainer">
+          <label class="estitulosfriboi" for="friboifloraseara">
+            <span style="color: #21C25E; text-transform: uppercase;">
+              picpay &nbsp; -
+            </span>
+            &nbsp; Desenvolvedor
+          </label>
+          <div class="friboicontent">
+            <img id="logotippic" src="/img/logos/picpaylogo.png" alt="">
+          <p class="textosestagios">
+            O Picpay iniciou sua trajetória de estágio em 2020, com apenas 11 candidatos com interesse na trajetória da tecnologia.
+            Os alunos iniciam sua jornada nas áreas de operação, como as de Relacionamento e Prevenção a Fraude, com o intuito de
+            entender os perfis de usuários no aplicativo. Em seguida, os alunos são direcionados para outras áreas da empresa, como
+            a de desenvolvimento, em que terão a oportunidade de entregar demandas reais para a empresa.
+          </p>
+          </div>
+        </div>
+        </div>
+
+              <div class="jbscontainer">
+                <label class="estitulosfriboi" for="friboifloraseara">
+                  <span style="color: #ED1D24; text-transform: uppercase;">
+                      jbs &nbsp; -
+                  </span>
+                  &nbsp; Analista de Mercado Financeiro
+                </label>
+                <div class="friboicontent">
+                  <img id="logotippic" src="/img/logos/jbslogo.png" alt="">
+                <p class="textosestagios">
+                  No primeiro semestre de 2021, demos início ao estágio na área de Mercado de Capitais com alguns alunos do Ensino Médio.
+                  Essa área possibilita que os estagiários coloquem em prática os conhecimentos adquiridos nas aulas da Academia Original,
+                  assim lidam diariamente com situações reais do mercado financeiro e realizam negociações envolvendo compra e venda de
+                  ativos variados.
+                </p>
+                </div>
+              </div>
+              </div>
+  
+                  <div class="navezinha" id="supervisorezinhos">
+                    <div id="quadradoazul"></div>
+                    <p>Programa de Supervisores</p>
+                  </div>
+        <div class="alunosforad" >
+          </div>
+          <div class="titulosimg" >
+          <h1 id="textinhosuper">
+          alunos fora de<br>
+        <b style="color: #4d71e7;">São Paulo</b>
+        </div>
+      </h1>
+      <div>
+      <p class="texto-conclusao">Após a conclusão do Ensino Médio, alguns ex-alunos são selecionados para assumirem um cargo de supervisão de vendas, em
+      que cada um é responsável por liderar uma equipe de vendedores em diferentes cidades do país. A proposta desafiadora
+      estimula os novos gestores a saírem de sua zona de conforto e explorarem suas habilidades.
+      A escola Germinare elaborou o programa de supervisores para os estudantes recém-formados, para aprimorar o conhecimento
+      adquirido pelos alunos durante sua formação. Com essa nova etapa, os alunos tornam-se mais preparados para assumirem
+      grandes responsabilidades dentro do ambiente de trabalho.
+</p>
+        </div>
     </main>
     <footer>
     </footer>
