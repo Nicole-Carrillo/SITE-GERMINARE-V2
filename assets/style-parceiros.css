@@ -577,7 +577,7 @@ main > h1 {
 .setinha > img {
   height: 40px;
   width: 60px;
-  margin-top: 32px;~
+  margin-top: 32px;
   z-index: -1;
 }
 
@@ -825,6 +825,72 @@ main > h1 {
 }
 
 @media only screen and (min-width:500px) {
+  .friboicontainer, .swiftcontainer, .origicontainer, .piccontainer, .jbscontainer{
+    min-height: 30vh;
+    align-items: center;
+  }
+
+
+
+  .friboicontent{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  } 
+
+  .loguinhos{
+    height: fit-content;
+    margin: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    width: fit-content;
+  }
+  .textosestagios{
+    width: 50%;
+    padding-top: 4vh;
+  }
+
+  #friboiloguinho{
+    height: 8vh;
+  }
+
+  #floraloguinho{
+    height: 8vh;
+    padding-right: 2vw;
+    border-right: 3px solid #fff;
+  }
+  #logotiposwift{
+    border-bottom: 0px;
+    height: 9vh;
+  }
+
+  #logotiporigi{
+    border-bottom: 0px;
+    height: 8vh;
+  }
+
+  #logotippic{
+    border-bottom: 0px;
+    height: 8vh;
+  }
+
+  #searaloguinho{
+    border-bottom: 0px;
+    height: 8vh;
+  }
+
+  .logosestagios{
+    padding-right: 15px;
+    margin: 0px;
+    height: 6vh;
+    margin-bottom: 7vh;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    border-right: 3px solid #fff;
+    border-radius: 2px;
+  }
   .logozinho{
   margin-left: 86vw;
   height: 9vh;
@@ -904,6 +970,7 @@ main > h1 {
   #origiinfo{
     margin-top: 31vh;
   }
+
 }
 
 @media only screen and (min-width:660px) and (max-width:1700px) {
@@ -1216,7 +1283,7 @@ main > h1 {
           #origiinfo{
     margin-top: 30vh;
     margin-right: 15vw;
-  }
+  }}
 
       #infooriginal{
     margin-top: 14vh;
@@ -1227,10 +1294,15 @@ main > h1 {
     margin-top: 16vh;
   }
 
+      .textosestagios{
+    padding-top: 3vh;
+  }
+  }
+
     @media only screen and (min-width:984px) and (max-width:1700px) {  
       #infooriginal{
     margin-top: 18vh;
-  }
+  }}
 
 @media only screen and (min-width:1050px) and (max-width:1700px) {
     .botaomais{
@@ -1313,8 +1385,6 @@ main > h1 {
   }
 }
 
-
-
 @media only screen and (min-width:1200px) and (max-width:1700px) {  
   #jbslogotipo {
   margin-left: 7vw;
@@ -1385,18 +1455,25 @@ main > h1 {
   }
 
           #infooriginal{
-    margin-top: 24vh;
+    margin-top: 20vh;
   }
 
       #origiinfo{
-    margin-top: 32vh;
-    margin-right: 24vw;
+    margin-top: 24vh;
+    margin-right: 21vw;
   }
 
         #setinhaorigi{
     margin-bottom: -12vw;
     margin-right: 15vw;
   }
-}
 
+  #ruralinfo{
+    margin-top: 12vh;
+    margin-right: 27vw;
+  }
+
+  #setinharural{
+    margin-bottom: -10vh;
+  }
 }
