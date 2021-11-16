@@ -38,7 +38,7 @@ h1 {
 }
 
 #jbscard {
-  background-image: url("/img/bg/jbsbg.png");
+  background-image: url("../img/img-parceiros/logos/jbslogo.png");
 }
 
 #jbslogotipo {
@@ -607,7 +607,7 @@ main > h1 {
   margin-right: 10px;
   z-index: 2;
   background-repeat: no-repeat;
-  background-image: url(/img/bg/estagios/bgswift.png);
+  background-image: url('../img/img-parceiros/bg/estagios/bgswift.png');
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
