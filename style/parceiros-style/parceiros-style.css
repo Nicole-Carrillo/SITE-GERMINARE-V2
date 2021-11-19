@@ -11,7 +11,7 @@ body {
   color: #ffff;
 }
 
-html{
+html {
   height: 100vh;
   width: 100vw;
 }
@@ -38,7 +38,7 @@ h1 {
 }
 
 #jbscard {
-  background-image: url("../img/img-parceiros/logos/jbslogo.png");
+  background-image: url("/img/img-parceiros/bg/jbsbg.png");
 }
 
 #jbslogotipo {
@@ -47,7 +47,6 @@ h1 {
   margin: 0 auto;
   margin-top: 13px;
   margin-bottom: 20px;
-  margin-right: 15px;
   margin-left: 4px;
 }
 
@@ -62,27 +61,27 @@ h1 {
 }
 
 #originalcard {
-  background-image: url("/img/bg/originalbg.png");
+  background-image: url("/img/img-parceiros/bg/originalbg.png");
 }
 
 #floracard {
-  background-image: url("/img/bg/florabg.png");
+  background-image: url("/img/img-parceiros/bg/florabg.png");
 }
 
 #picpaycard {
-  background-image: url("/img/bg/picpaybg.png");
+  background-image: url("/img/img-parceiros/bg/picpaybg.png");
 }
 
 #ruralcard {
-  background-image: url("/img/bg/ruralbg.png");
+  background-image: url("/img/img-parceiros/bg/ruralbg.png");
 }
 
 #ambarcard {
-  background-image: url("/img/bg/ambarbg.png");
+  background-image: url("/img/img-parceiros/bg/ambarbg.png");
 }
 
 #eldoradocard {
-  background-image: url("/img/bg/eldoradobg.png");
+  background-image: url("/img/img-parceiros/bg/eldoradobg.png");
 }
 /*
 
@@ -204,7 +203,7 @@ main > h1 {
 }
 
 .title {
-  background-image: url(/img/bg/aulaspraticasbg.png);
+  background-image: url("/img/img-parceiros/bg/aulaspraticasbg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: darken;
@@ -233,7 +232,6 @@ main > h1 {
 
 #pplogotipo {
   height: 30px;
-  margin-bottom: 30px;
   margin-top: 10px;
   margin-left: 1px;
 }
@@ -274,7 +272,7 @@ main > h1 {
   margin-right: 10px;
   z-index: 2;
   background-repeat: no-repeat;
-  background-image: url(/img/bg/estagios/bgswift.png);
+  background-image: url("/img/img-parceiros/bg/estagios/bgswift.png");
   border-radius: 6px;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
@@ -322,7 +320,7 @@ main > h1 {
   margin-right: 10px;
   z-index: 2;
   background-repeat: no-repeat;
-  background-image: url(/img/bg/estagios/bgfriboi.png);
+  background-image: url("/img/img-parceiros/bg/estagios/bgfriboi.png");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
@@ -375,7 +373,6 @@ main > h1 {
   justify-content: center;
   align-items: center;
   max-height: min-content;
-
 }
 
 #searaloguinho {
@@ -393,7 +390,6 @@ main > h1 {
   height: 250px;
 }
 
-
 .origicontainer {
   display: block;
   position: relative;
@@ -402,20 +398,19 @@ main > h1 {
   margin-right: 10px;
   z-index: 2;
   background-repeat: no-repeat;
-  background-image: url(/img/bg/estagios/bgoriginal.png);
+  background-image: url("/img/img-parceiros/bg/estagios/bgoriginal.png");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(12, 12, 12, 0.8);
   width: 90vw;
-  border: 4px solid #6CB349;
+  border: 4px solid #6cb349;
   border-radius: 7px;
   position: relative;
   height: fit-content;
   z-index: 0;
   min-height: 25vh;
 }
-
 
 #logotiporigi {
   height: 30px;
@@ -427,7 +422,6 @@ main > h1 {
   border-radius: 2px;
 }
 
-
 .piccontainer {
   display: block;
   position: relative;
@@ -436,14 +430,14 @@ main > h1 {
   margin-right: 10px;
   z-index: 2;
   background-repeat: no-repeat;
-  background-image: url(/img/bg/estagios/bgpicpay.png);
+  background-image: url("/img/img-parceiros/bg/estagios/bgpicpay.png");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: rgba(12, 12, 12, 0.8);
   width: 90vw;
-  border: 4px solid #21C25E;
+  border: 4px solid #21c25e;
   border-radius: 7px;
   position: relative;
   height: fit-content;
@@ -469,14 +463,14 @@ main > h1 {
   margin-right: 10px;
   z-index: 2;
   background-repeat: no-repeat;
-  background-image: url(/img/bg/estagios/bgjbs.png);
+  background-image: url("/img/img-parceiros/bg/estagios/bgjbs.png");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   background-color: rgba(12, 12, 12, 0.8);
   width: 90vw;
-  border: 4px solid #ED1D24;
+  border: 4px solid #ed1d24;
   border-radius: 7px;
   position: relative;
   height: fit-content;
@@ -486,13 +480,12 @@ main > h1 {
   min-height: 25vh;
 }
 
-
 #supervisorezinhos {
   margin-top: 35px;
 }
 
 .alunosforad {
-  background-image: url(/img/bg/superbg.png);
+  background-image: url("/img/img-parceiros/bg/superbg.png");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
@@ -516,88 +509,14 @@ main > h1 {
   margin-left: 45vw;
 }
 
-
-#textinho{
+#textinho {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 10px;
-
-}
-
-.cardinfo{
-  display: block;
-  position: absolute;
-  z-index: 200;
-  right: 15px;
-}
-
-.info{
-  color: #1f1f1f;
-  font-weight: bold;
-  background-color: #C4C4C4;
-  padding: 10px;
-  width: 50vw;
-  margin-top: -50px;
-  z-index: 200;
-}
-
-#infooriginal{
-  margin-top: -60px;
-}
-
-.setinha {
-  left: -40px;
-  display: flex;
-  margin-left: -30px;
-  margin-top: -20px;
-  z-index: -1;
-}
-
-#setinhaorigi{
-  transform: rotate(90deg);
-  bottom: -20px;
-}
-
-#setinharural{
-  transform: rotate(-90deg);
-  margin-bottom: -110px;
 }
 
 
-#setinhaorigi > img {
-  margin-top: -40px;
-  z-index: -2;
-}
-
-.info{
-  max-width: 300px;
-}
-
-.setinha > img {
-  height: 40px;
-  width: 60px;
-  margin-top: 32px;
-  z-index: -1;
-}
-
-#setinhaambar{
-  left: 40px;
-  margin-left: 160px;
-  transform: rotate(180deg);
-  margin-bottom: -160px;
-}
-
-#setinhaflora{
-  left: 40px;
-  margin-left: 160px;
-  transform: rotate(180deg);
-  margin-bottom: -80px;
-}
-
-#setinhaeldorado{
-  margin-top: 80px;
-}
 
 .swiftcontainer {
   display: block;
@@ -607,7 +526,7 @@ main > h1 {
   margin-right: 10px;
   z-index: 2;
   background-repeat: no-repeat;
-  background-image: url('../img/img-parceiros/bg/estagios/bgswift.png');
+  background-image: url("/img/img-parceiros/bg/estagios/bgswift.png");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
@@ -622,224 +541,282 @@ main > h1 {
   min-height: 25vh;
 }
 
-
 #jbsinfo {
   display: none;
 }
 
-#origiinfo{
+#origiinfo {
   display: none;
   margin-top: 140px;
   margin-right: 35px;
 }
 
-#picinfo{
+#picinfo {
   display: none;
   margin-top: 95px;
 }
 
-#florainfo{
+#florainfo {
   display: none;
   margin-right: 40px;
 }
 
-#ambarinfo{
+#ambarinfo {
   display: none;
   margin-top: 120px;
   margin-right: 40px;
 }
 
-#ruralinfo{
+#ruralinfo {
   display: none;
   margin-right: 20px;
 }
 
-#eldoradoinfo{
+#eldoradoinfo {
   display: none;
   margin-top: 110px;
 }
 
+.wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #ffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
 
-@media only screen and (min-width:325px) and (max-width: 420px){
-  .grid-parceiros{
+.modal {
+  z-index: 20;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(30, 30, 31, 0.61);
+  transition: all 0.4s;
+}
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__content {
+  color: #000000;
+  border-radius: 4px;
+  position: relative;
+  width: 500px;
+  max-width: 50vw;
+  background: rgb(196, 193, 193);
+  padding: 1em 2em;
+}
+
+.modal__footer {
+  text-align: right;
+}
+.modal__footer > a {
+  color: #585858;
+}
+
+.modal__footer > i {
+  color: #d02d2c;
+}
+
+.modal__close {
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #585858;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 325px) and (max-width: 420px) {
+  .grid-parceiros {
     grid-template-columns: repeat(3, 26vw);
     margin-left: 5vw;
   }
 
-  #textinhosuper{
-  margin-left: 45vw;
+  #textinhosuper {
+    margin-left: 45vw;
   }
 
-  #ambarinfo{
+  #ambarinfo {
     margin-right: 30vw;
   }
 
-  #infoambar{
+  #infoambar {
     margin-top: 10vh;
   }
-  
-  #setinhaambar{
+
+  #setinhaambar {
     margin-right: -50px;
   }
 
-    #florainfo{
+  #florainfo {
     margin-right: 30vw;
   }
 
-    #infoambar{
+  #infoambar {
     margin-top: 10vh;
   }
-  
-  #setinhaflora{
+
+  #setinhaflora {
     margin-right: -50px;
   }
 
-  #setinhaorigi{
+  #setinhaorigi {
     margin-bottom: -13vw;
     margin-right: 15vw;
   }
 
-  #origiinfo{
+  #origiinfo {
     margin-top: 22vh;
     margin-right: 7vw;
   }
-  #infooriginal{
+  #infooriginal {
     margin-top: 1vh;
   }
 }
 
-
-@media only screen and (min-width:420px) {
+@media only screen and (min-width: 420px) {
   .grid-parceiros {
-  grid-template-columns: repeat(3, 29vw);
-  grid-template-rows: repeat(3, 25vh);
-  margin-left: 4vw;
+    grid-template-columns: repeat(3, 29vw);
+    grid-template-rows: repeat(3, 25vh);
+    margin-left: 4vw;
   }
 
   .botaomais > img {
     height: 6vh;
   }
 
-  .botaomais{
+  .botaomais {
     margin-left: 18vw;
   }
 
-  .logozinho{
-  margin-left: 85vw;
-  height: 9vh;
+  .logozinho {
+    margin-left: 85vw;
+    height: 9vh;
   }
 
-  #textinhosuper{
-  margin-left: 60vw;
+  #textinhosuper {
+    margin-left: 60vw;
   }
 
   #jbslogotipo {
-  height: 6vh;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-right: 4vw;
-  margin-left: 3vw;
-}
+    height: 6vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 3vw;
+  }
 
-#originallogotipo {
-  height: 5.8vh;
-  margin-top: 5vh;
-  margin-left: 1vw;
-}
+  #originallogotipo {
+    height: 5.8vh;
+    margin-top: 5vh;
+    margin-left: 1vw;
+  }
 
-#pplogotipo {
-  height: 6vh;
-  margin-bottom: 6vh;
-  margin-top: 6vh;
-  margin-left: 3vw;
-}
+  #pplogotipo {
+    height: 6vh;
+    margin-top: 6vh;
+    margin-left: 3vw;
+  }
 
-#floralogotipo {
-  height: 12vh;
-  margin-left: 4vw;
-  margin-top: 2vh;
-}
+  #floralogotipo {
+    height: 12vh;
+    margin-left: 4vw;
+    margin-top: 2vh;
+  }
 
+  #rurallogotipo {
+    height: 12vh;
+    margin-left: 2.5vw;
+    margin-top: 3vh;
+  }
 
-#rurallogotipo {
-  height: 12vh;
-  margin-left: 2.5vw;
-  margin-top: 3vh;
-}
+  .cardinfo {
+    margin-right: 10vw;
+  }
 
-.cardinfo{
-  margin-right: 10vw;
-}
+  #eldoradoinfo {
+    margin-top: 35vh;
+    margin-right: 6vw;
+  }
 
-  #eldoradoinfo{
-  margin-top: 35vh;
-  margin-right: 6vw;
-}
-
-  #ambarinfo{
+  #ambarinfo {
     margin-right: 20vw;
   }
 
-  #infoambar{
+  #infoambar {
     margin-top: 10vh;
   }
-  
-  #setinhaambar{
+
+  #setinhaambar {
     margin-right: -50px;
     margin-top: 5vh;
   }
 
-    #ambarlogotipo{
+  #ambarlogotipo {
     height: 7.5vh;
     margin-top: 5vh;
     margin-left: 2vw;
   }
 
-  #eldoradologotipo{
+  #eldoradologotipo {
     height: 6vh;
     margin-top: 5vh;
     margin-left: 2vw;
   }
 
-    #florainfo{
+  #florainfo {
     margin-right: 20vw;
     margin-top: -6vh;
   }
-  #setinhaflora{
+  #setinhaflora {
     margin-right: -50px;
     margin-top: 5vh;
   }
 
-    #setinhaorigi{
+  #setinhaorigi {
     margin-bottom: -16vw;
     margin-right: 15vw;
   }
 
-  #origiinfo{
+  #origiinfo {
     margin-top: 27vh;
     margin-right: 7vw;
   }
-  #infooriginal{
+  #infooriginal {
     margin-top: 2vh;
   }
 }
 
-@media only screen and (min-width:500px) {
-  .friboicontainer, .swiftcontainer, .origicontainer, .piccontainer, .jbscontainer{
+@media only screen and (min-width: 500px) {
+  .friboicontainer,
+  .swiftcontainer,
+  .origicontainer,
+  .piccontainer,
+  .jbscontainer {
     min-height: 30vh;
     align-items: center;
   }
 
-
-
-  .friboicontent{
+  .friboicontent {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  } 
+  }
 
-  .loguinhos{
+  .loguinhos {
     height: fit-content;
     margin: 1vh;
     display: flex;
@@ -847,41 +824,41 @@ main > h1 {
     border: none;
     width: fit-content;
   }
-  .textosestagios{
+  .textosestagios {
     width: 50%;
     padding-top: 4vh;
   }
 
-  #friboiloguinho{
+  #friboiloguinho {
     height: 8vh;
   }
 
-  #floraloguinho{
+  #floraloguinho {
     height: 8vh;
     padding-right: 2vw;
     border-right: 3px solid #fff;
   }
-  #logotiposwift{
+  #logotiposwift {
     border-bottom: 0px;
     height: 9vh;
   }
 
-  #logotiporigi{
+  #logotiporigi {
     border-bottom: 0px;
     height: 8vh;
   }
 
-  #logotippic{
+  #logotippic {
     border-bottom: 0px;
     height: 8vh;
   }
 
-  #searaloguinho{
+  #searaloguinho {
     border-bottom: 0px;
     height: 8vh;
   }
 
-  .logosestagios{
+  .logosestagios {
     padding-right: 15px;
     margin: 0px;
     height: 6vh;
@@ -891,9 +868,9 @@ main > h1 {
     border-right: 3px solid #fff;
     border-radius: 2px;
   }
-  .logozinho{
-  margin-left: 86vw;
-  height: 9vh;
+  .logozinho {
+    margin-left: 86vw;
+    height: 9vh;
   }
 
   .grid-parceiros {
@@ -901,80 +878,75 @@ main > h1 {
     margin-left: 4vw;
   }
 
-    .botaomais > img {
+  .botaomais > img {
     height: 7vh;
   }
 
   #jbslogotipo {
-  height: 6vh;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-right: 3vw;
-  margin-left: 4vw;
-}
+    height: 6vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 4vw;
+  }
 
   #originallogotipo {
-  height: 6vh;
-  margin-top: 5vh;
-  margin-left: 2vw;
-}
+    height: 6vh;
+    margin-top: 5vh;
+    margin-left: 2vw;
+  }
 
-#pplogotipo {
-  height: 6.5vh;
-  margin-top: 5vh;
-  margin-left: 3vw;
-}
+  #pplogotipo {
+    height: 6.5vh;
+    margin-top: 5vh;
+    margin-left: 3vw;
+  }
 
-#floralogotipo {
-  height: 12.5vh;
-  margin-left: 5vw;
-}
+  #floralogotipo {
+    height: 12.5vh;
+    margin-left: 5vw;
+  }
 
-#jbsinfo{
-  margin-right: 13vw;
-}
+  #jbsinfo {
+    margin-right: 13vw;
+  }
 
-#picinfo{
-  margin-top: 26vh;
-}
+  #picinfo {
+    margin-top: 26vh;
+  }
 
-  #eldoradoinfo{
-  margin-top: 35vh;
-  margin-right: 12vw;
-}
-  #ambarinfo{
+  #eldoradoinfo {
+    margin-top: 35vh;
+    margin-right: 12vw;
+  }
+  #ambarinfo {
     margin-top: 20vw;
   }
 
-  
-#rurallogotipo {
-  height: 12vh;
-  margin-left: 3.5vw;
-  margin-top: 3vh;
-}
+  #rurallogotipo {
+    height: 12vh;
+    margin-left: 3.5vw;
+    margin-top: 3vh;
+  }
 
-
-#ambarlogotipo{
+  #ambarlogotipo {
     height: 8vh;
     margin-top: 5vh;
     margin-left: 3vw;
   }
 
-
-    #eldoradologotipo{
+  #eldoradologotipo {
     height: 7vh;
     margin-top: 5vh;
     margin-left: 1vw;
   }
-  
-  #origiinfo{
+
+  #origiinfo {
     margin-top: 31vh;
   }
-
 }
 
-@media only screen and (min-width:660px) and (max-width:1700px) {
-  .logozinho{
+@media only screen and (min-width: 660px) and (max-width: 1700px) {
+  .logozinho {
     margin-left: 90vw;
     height: 9vh;
   }
@@ -993,69 +965,65 @@ main > h1 {
   }
 
   #jbslogotipo {
-  height: 7vh;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-right: 3vw;
-  margin-left: 5vw;
-}
+    height: 7vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 5vw;
+  }
 
   #originallogotipo {
-  height: 7vh;
-  margin-top: 5vh;
-  margin-left: 3vw;
-}
+    height: 7vh;
+    margin-top: 5vh;
+    margin-left: 3vw;
+  }
 
-#pplogotipo {
-  height: 7vh;
-  margin-top: 5.5vh;
-  margin-left: 5vw;
-}
+  #pplogotipo {
+    height: 7vh;
+    margin-top: 5.5vh;
+    margin-left: 5vw;
+  }
 
+  #floralogotipo {
+    height: 13vh;
+    margin-left: 6vw;
+  }
 
-#floralogotipo {
-  height: 13vh;
-  margin-left: 6vw;
-}
+  #jbsinfo {
+    margin-right: 13vw;
+  }
 
-#jbsinfo{
-  margin-right: 13vw;
-}
-
-  #ambarinfo{
+  #ambarinfo {
     margin-top: 17vw;
   }
 
-  
-#rurallogotipo {
-  height: 13vh;
-  margin-left: 5vw;
-  margin-top: 3vh;
-}
+  #rurallogotipo {
+    height: 13vh;
+    margin-left: 5vw;
+    margin-top: 3vh;
+  }
 
-#ambarlogotipo{
+  #ambarlogotipo {
     height: 9vh;
     margin-top: 6vh;
     margin-left: 4.3vw;
   }
-  
-    #eldoradologotipo{
+
+  #eldoradologotipo {
     height: 8vh;
     margin-top: 5vh;
     margin-left: 3vw;
   }
 
-    #origiinfo{
+  #origiinfo {
     margin-top: 35vh;
   }
 
-  #infooriginal{
+  #infooriginal {
     margin-top: 4.9vh;
   }
 }
 
-
-@media only screen and (min-width:720px) and (max-width:1700px) {
+@media only screen and (min-width: 720px) and (max-width: 1700px) {
   body {
     font-size: 2.4vh;
     line-height: 3.2vh;
@@ -1080,28 +1048,29 @@ main > h1 {
     margin-top: -60px;
   }
 
-  #textoprincipal, #textinhosuper{
+  #textoprincipal,
+  #textinhosuper {
     font-size: 4vh;
     line-height: 4vh;
     margin-left: 6vw;
   }
 
-  #textinhosuper{
+  #textinhosuper {
     margin-left: 70vw;
     width: fit-content;
     padding-bottom: 20px;
   }
 
   .grid-parceiros {
-  grid-template-columns: repeat(3, 26vw);
-  grid-template-rows: repeat(3, 29vh);
-  grid-gap: 3vw;
-  margin-left: 5vw;
-  margin-top: 12px;
-  z-index: 3;
-}
+    grid-template-columns: repeat(3, 26vw);
+    grid-template-rows: repeat(3, 29vh);
+    grid-gap: 3vw;
+    margin-left: 5vw;
+    margin-top: 12px;
+    z-index: 3;
+  }
 
-  #quadradoazul{
+  #quadradoazul {
     height: 14px;
     justify-content: center;
     align-items: center;
@@ -1112,77 +1081,75 @@ main > h1 {
   }
 
   #jbslogotipo {
-  height: 8vh;
-  margin: 0 auto;
-  margin-top: 40px;
-  margin-right: 3vw;
-  margin-left: 4vw;
-}
+    height: 8vh;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 4vw;
+  }
 
   #originallogotipo {
-  height: 8vh;
-  margin-top: 7vh;
-  margin-left: 2.3vw;
-}
+    height: 8vh;
+    margin-top: 7vh;
+    margin-left: 2.3vw;
+  }
 
-#pplogotipo {
-  height: 8vh;
-  margin-top: 7vh;
-  margin-left: 4.3vw;
-}
+  #pplogotipo {
+    height: 8vh;
+    margin-top: 7vh;
+    margin-left: 4.3vw;
+  }
 
-#floralogotipo {
-  height: 14vh;
-  margin-left: 6vw;
-  margin-top: 3vh;
-}
+  #floralogotipo {
+    height: 14vh;
+    margin-left: 6vw;
+    margin-top: 3vh;
+  }
 
-#jbsinfo{
-  margin-right: 25vw;
-}
+  #jbsinfo {
+    margin-right: 25vw;
+  }
 
-#picinfo{
-  margin-top: 32vh;
-  margin-right: 25vw;
-}
+  #picinfo {
+    margin-top: 32vh;
+    margin-right: 25vw;
+  }
 
-  #eldoradoinfo{
-  margin-top: 50vh;
-  margin-right: 25vw;
-}
+  #eldoradoinfo {
+    margin-top: 50vh;
+    margin-right: 25vw;
+  }
 
-#rurallogotipo {
-  height: 16vh;
-  margin-left: 4vw;
-}
+  #rurallogotipo {
+    height: 16vh;
+    margin-left: 4vw;
+  }
 
-#ambarlogotipo{
+  #ambarlogotipo {
     height: 10vh;
     margin-top: 6vh;
     margin-left: 4vw;
   }
 
-    
-    #eldoradologotipo{
+  #eldoradologotipo {
     height: 9vh;
     margin-top: 7vh;
     margin-left: 2vw;
   }
-      #origiinfo{
+  #origiinfo {
     margin-top: 36vh;
     margin-right: 15vw;
   }
 
-    #infooriginal{
+  #infooriginal {
     margin-top: 9vh;
   }
 }
 
-@media only screen and (min-width:832px) and (max-width:1700px) {
+@media only screen and (min-width: 832px) and (max-width: 1700px) {
   .botaomais > img {
     height: 9vh;
   }
-    .botaomais{
+  .botaomais {
     margin-left: 19vw;
   }
 
@@ -1195,16 +1162,15 @@ main > h1 {
     z-index: 3;
   }
 
-    .titulosimg{
-      line-height: 3.4vh;
-      font-size: 4vh;
-    }
+  .titulosimg {
+    line-height: 3.4vh;
+    font-size: 4vh;
+  }
 
   #jbslogotipo {
     height: 9vh;
     margin: 0 auto;
     margin-top: 52px;
-    margin-right: 2vw;
     margin-left: 4.7vw;
   }
 
@@ -1213,7 +1179,6 @@ main > h1 {
     margin-top: 8vh;
     margin-left: 2.5vw;
   }
-
 
   #pplogotipo {
     height: 9vh;
@@ -1231,249 +1196,247 @@ main > h1 {
     font-size: 2.5vh;
   }
 
-  #picinfo{
-  margin-top: 37vh;
-  margin-right: 25vw;
-}
+  #picinfo {
+    margin-top: 37vh;
+    margin-right: 25vw;
+  }
 
-#jbsinfo{
-  margin-right: 25vw;
-}
+  #jbsinfo {
+    margin-right: 25vw;
+  }
 
+  #eldoradoinfo {
+    margin-top: 56vh;
+    margin-right: 25vw;
+  }
 
-  #eldoradoinfo{
-  margin-top: 56vh;
-  margin-right: 25vw;
-}
+  #rurallogotipo {
+    height: 17vh;
+    margin-top: 5vh;
+    margin-left: 4.8vw;
+  }
 
-#rurallogotipo {
-  height: 17vh;
-  margin-top: 5vh;
-  margin-left: 4.8vw;
-}
-
-#ambarlogotipo{
+  #ambarlogotipo {
     height: 11vh;
     margin-top: 8vh;
     margin-left: 4vw;
   }
 
-      
-    #eldoradologotipo{
+  #eldoradologotipo {
     height: 10vh;
     margin-top: 8vh;
     margin-left: 3vw;
   }
-  #jftextoprincipal{
-  font-size: 3vh
+  #jftextoprincipal {
+    font-size: 3vh;
   }
 
-        #origiinfo{
+  #origiinfo {
     margin-top: 30vh;
     margin-right: 15vw;
   }
 
-      #infooriginal{
+  #infooriginal {
     margin-top: 12vh;
   }
-
 }
 
-@media only screen and (min-width:870px) and (max-width:1700px) {  
-          #origiinfo{
+@media only screen and (min-width: 870px) and (max-width: 1700px) {
+  #origiinfo {
     margin-top: 30vh;
     margin-right: 15vw;
-  }}
-
-      #infooriginal{
-    margin-top: 14vh;
   }
+}
 
-  @media only screen and (min-width:944px) and (max-width:1700px) {  
-      #infooriginal{
+#infooriginal {
+  margin-top: 14vh;
+}
+
+@media only screen and (min-width: 944px) and (max-width: 1700px) {
+  #infooriginal {
     margin-top: 16vh;
   }
 
-      .textosestagios{
+  .textosestagios {
     padding-top: 3vh;
   }
-  }
+}
 
-    @media only screen and (min-width:984px) and (max-width:1700px) {  
-      #infooriginal{
+@media only screen and (min-width: 984px) and (max-width: 1700px) {
+  #infooriginal {
     margin-top: 18vh;
-  }}
+  }
+}
 
-@media only screen and (min-width:1050px) and (max-width:1700px) {
-    .botaomais{
+@media only screen and (min-width: 1050px) and (max-width: 1700px) {
+  .botaomais {
     margin-left: 20vw;
   }
-  
+
   #jbslogotipo {
-  height: 9vh;
-  margin: 0 auto;
-  margin-top: 52px;
-  margin-right: 2vw;
-  margin-left: 6vw;
-}
+    height: 9vh;
+    margin: 0 auto;
+    margin-top: 52px;
+    margin-left: 6vw;
+  }
 
   #originallogotipo {
-  height: 10vh;
-  margin-top: 8vh;
-  margin-left: 5vw;
-}
+    height: 10vh;
+    margin-top: 8vh;
+    margin-left: 5vw;
+  }
 
   #floralogotipo {
-  height: 18vh;
-  margin-left: 6vw;
-}
+    height: 18vh;
+    margin-left: 6vw;
+  }
 
-#pplogotipo {
-  height: 10vh;
-  margin-top: 9vh;
-  margin-left: 5vw;
-}
+  #pplogotipo {
+    height: 10vh;
+    margin-top: 9vh;
+    margin-left: 5vw;
+  }
 
-#rurallogotipo {
-  height: 19vh;
-  margin-top: 4vh;
-  margin-left: 6vw;
-}
+  #rurallogotipo {
+    height: 19vh;
+    margin-top: 4vh;
+    margin-left: 6vw;
+  }
 
-#ambarlogotipo{
+  #ambarlogotipo {
     height: 13vh;
     margin-top: 8vh;
     margin-left: 5vw;
   }
 
-      #eldoradologotipo{
+  #eldoradologotipo {
     height: 13vh;
     margin-top: 8vh;
     margin-left: 2vw;
   }
-          #origiinfo{
+  #origiinfo {
     margin-top: 55vh;
     margin-right: 8vw;
   }
 
-    #picinfo{
-  margin-right: 40vw;
-}
+  #picinfo {
+    margin-right: 40vw;
+  }
 
-#jbsinfo{
-  margin-right: 40vw;
-}
+  #jbsinfo {
+    margin-right: 40vw;
+  }
 
-
-  #eldoradoinfo{
+  #eldoradoinfo {
     margin-bottom: -4vh;
-  margin-right: 40vw;
-}
+    margin-right: 40vw;
+  }
 
-      #setinhaorigi{
+  #setinhaorigi {
     margin-bottom: -17vw;
     margin-right: 15vw;
   }
 
-        #infooriginal{
+  #infooriginal {
     margin-top: 22vh;
   }
 
-      #origiinfo{
+  #origiinfo {
     margin-top: 30vh;
     margin-right: 18vw;
   }
 }
 
-@media only screen and (min-width:1200px) and (max-width:1700px) {  
+@media only screen and (min-width: 1200px) and (max-width: 2500px) {
   #jbslogotipo {
-  margin-left: 7vw;
-  margin-top: 9vh;
-}
+    height: 9vh;
+    margin-left: 7vw;
+    margin-top: 9vh;
+  }
 
   #originallogotipo {
     height: 10vh;
-  margin-top: 9vh;
-  margin-left: 5vw;
-}
+    margin-top: 9vh;
+    margin-left: 5vw;
+  }
 
-#pplogotipo {
-  margin-left: 6.5vw;
-}
+  #pplogotipo {
+    height: 10vh;
+    margin-left: 6.5vw;
+  }
 
-#floralogotipo {
-  height: 17vh;
-  margin-left: 8vw;
-  margin-top: 5vh;
-}
+  #floralogotipo {
+    height: 17vh;
+    margin-left: 8vw;
+    margin-top: 5vh;
+  }
 
+  #jbscard:hover {
+    background: #af191e;
+  }
 
-#jbscard:hover {
-  background: #af191e;
-}
+  #originalcard:hover {
+    background: #477530;
+  }
 
-#originalcard:hover {
-  background: #477530;
-}
+  #floracard:hover {
+    background: #627ad9;
+  }
 
-#floracard:hover {
-  background: #627ad9;
-}
+  #picpaycard:hover {
+    background: #116632;
+  }
 
-#picpaycard:hover {
-  background: #116632;
-}
+  #ruralcard:hover {
+    background: #0a323f;
+  }
 
-#ruralcard:hover {
-  background: #0a323f;
-}
+  #ambarcard:hover {
+    background: #918336;
+  }
 
-#ambarcard:hover {
-  background: #918336;
-}
+  #eldoradocard:hover {
+    background: #3b8081;
+  }
 
-#eldoradocard:hover {
-  background: #3b8081;
-}
+  #rurallogotipo {
+    height: 20vh;
+    margin-top: 4vh;
+    margin-left: 6vw;
+  }
 
-#rurallogotipo {
-  height: 20vh;
-  margin-top: 4vh;
-  margin-left: 6vw;
-}
-
-#ambarlogotipo{
+  #ambarlogotipo {
     height: 13vh;
     margin-top: 7vh;
     margin-left: 6vw;
   }
 
-    #eldoradologotipo{
+  #eldoradologotipo {
     height: 13vh;
     margin-top: 8vh;
     margin-left: 4vw;
   }
 
-          #infooriginal{
+  #infooriginal {
     margin-top: 20vh;
   }
 
-      #origiinfo{
+  #origiinfo {
     margin-top: 24vh;
     margin-right: 21vw;
   }
 
-        #setinhaorigi{
+  #setinhaorigi {
     margin-bottom: -12vw;
     margin-right: 15vw;
   }
 
-  #ruralinfo{
+  #ruralinfo {
     margin-top: 12vh;
     margin-right: 27vw;
   }
 
-  #setinharural{
+  #setinharural {
     margin-bottom: -10vh;
   }
 }
