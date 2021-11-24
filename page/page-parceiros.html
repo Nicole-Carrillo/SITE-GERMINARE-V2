@@ -1,118 +1,134 @@
 <!DOCTYPE html>
-  <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/parceiros-style/reset.css" />
-    <link rel="stylesheet" href="../style/parceiros-style/parceiros-style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="../scripts/main-parceiros.js" defer></script>
-    <title>Parceiros</title>
-  </head>
-  <body>
-    
-    <main>
-      <div class="navezinha" id="parceirinhos">
-        <div id="quadradoazul"></div>
-        <p>Parceiros</p>
-      </div>
-      <img src="../img/img-parceiros/logos/logojf.png" alt="logo empresa jf" class="logozinho">
-      <h1 class="titulosimg" id="jftextoprincipal">Empresas do GRUPO J&F</h1>
-      <p id="jftextoprincipal">A J&F está presente em 190 países, com mais de 250 mil colaboradores no mundo. Suas empresas atuam nas áreas de
-      alimentos, celulose, energia, serviços financeiros, comunicação, cosméticos e higiene e limpeza.</p>
-      <img src="../img/img-parceiros/bg/parceirosbg.png" alt="fabrica jbs ao fundo" class="fundo">
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/reset.css" />
+  <link rel="stylesheet" href="../styles/parceiros-style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="shortcut icon" href="../imgs/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Parceiros</title>
+</head>
 
+<body>
+  <main>
+    <img src="../img/img-parceiros/logos/logojf.png" alt="logo empresa jf" class="logozinho">
+    <h1 class="titulosimg" id="jftituloprincipal">
+      Empresas do GRUPO J&F
+    </h1>
+    <div class="texto-alinhado">
+    <p id="jftextoprincipal">
+      A J&F está presente em 190 países, com mais de 250 mil colaboradores no mundo. Suas
+      empresas atuam nas áreas de
+      alimentos, celulose, energia, serviços financeiros, comunicação, cosméticos e higiene e limpeza.
+    </p>
+    </div>
+    <img src="../img/img-parceiros/bg/parceirosbg.png" alt="fabrica jbs ao fundo" class="fundo">
+
+
+    <div class="grid-parceiros">
+      <div class="grid-item" id="jbscard">
+        <div>
+          <a class="botaomais" href="#modal-jbs">
+            <img src="/img/img-parceiros/addbtn.svg" alt="">
+          </a>
+        </div>
+        <img id="jbslogotipo" class='logotipo' src="/img/img-parceiros/logos/jbslogo.png"
+          alt="logotipo jbs cinza e branco">
+      </div>
 
       <div id="modal-jbs" class="modal">
         <div class="modal__content">
-          <h1>JBS - Empresa Alimentícia</h1>
+          <div class="bgmodal" id="bgmodaljbs"></div>
+          <h1>
+            JBS - Empresa Alimentícia
+          </h1>
           <p>
-            A JBS é uma companhia de alimentos, que além de ser a maior processadora de proteína animal do mundo, é também a
+            Além de ser a maior processadora de proteína animal do mundo, é também
+            a
             segunda maior produtora global de alimentos. A Companhia possui um portfólio de marcas reconhecidas pela
-            excelência, como Friboi, Moy Park, Pilgrim’s Pride, Primo, Seara, Swift, Gold’n Plump, que atendem mais de 190
-            nacionalidades em todo o mundo.
+            excelência, como Friboi, Moy Park, Pilgrim’s Pride, Primo, Seara, Swift, Gold’n Plump.
           </p>
           <a href="#" class="modal__close">&times;</a>
         </div>
       </div>
-      
-      <div class="grid-parceiros">
-        <div class="grid-item" id="jbscard">
-        <div>
-          <a class="botaomais" href="#modal-jbs"> 
-            <img src="/img/img-parceiros/addbtn.svg" alt=""> 
-          </a>
-        </div>
-          <img id="jbslogotipo" class='logotipo' src="/img/img-parceiros/logos/jbslogo.png" alt="logotipo jbs cinza e branco">
-        </div>
 
       <div id="modal-original" class="modal">
         <div class="modal__content">
+          <div class="bgmodal" id="bgmodaloriginal"></div>
           <h1>Banco Original - Instituição Financeira</h1>
           <p>
-            O Banco Original é o primeiro banco brasileiro 100% digital. A instituição oferece produtos e serviços inovadores, com a
-            mais alta tecnologia em segurança e as práticas mais modernas do mercado financeiro. Presente em 100% dos municípios do
+            O Banco Original é o primeiro banco brasileiro 100% digital. A instituição oferece produtos e serviços
+            inovadores, com a
+            mais alta tecnologia em segurança e as práticas mais modernas do mercado financeiro. Presente em 100% dos
+            municípios do
             Brasil, atua nos segmentos varejo, corporate e agronegócio.
           </p>
           <a href="#" class="modal__close">&times;</a>
         </div>
       </div>
 
-        <div class="grid-item" id="originalcard">
-          <a class="botaomais" href="#modal-original">
-            <img src="/img/img-parceiros/addbtn.svg" alt="botao adicionar">
-          </a>
-          <img id="originallogotipo" src="/img/img-parceiros/logos/originallogo.png" alt="logotipo banco original branco">
-        </div>
+      <div class="grid-item" id="originalcard">
+        <a class="botaomais" href="#modal-original">
+          <img src="/img/img-parceiros/addbtn.svg" alt="botao adicionar">
+        </a>
+        <img id="originallogotipo" src="/img/img-parceiros/logos/originallogo.png" alt="logotipo banco original branco">
+      </div>
 
 
       <div id="modal-flora" class="modal">
         <div class="modal__content">
+          <div class="bgmodal" id="bgmodalflora"></div>
           <h1>Flora - Empresa de Cosméticos</h1>
           <p>
-A Flora é uma companhia focada nos setores de cosméticos, higiene pessoal e limpeza. Atualmente, possui um portfólio
-completo para atender as necessidades de consumo dos brasileiros, com 12 Marcas - Minuano, Francis, Neutrox, Albany, OX,
-Brisa, Assim, Phytoderm, Kolene, Karina, No Inset e Mat Inset.
+            A Flora é uma companhia focada nos setores de cosméticos, higiene pessoal e limpeza. Atualmente, possui um
+            portfólio
+            completo para atender as necessidades de consumo dos brasileiros, com 12 Marcas - Minuano, Francis, Neutrox,
+            Albany, OX,
+            Brisa, Assim, Phytoderm, Kolene, Karina, No Inset e Mat Inset.
           </p>
           <a href="#" class="modal__close">&times;</a>
         </div>
       </div>
 
-        <div class="grid-item" id="floracard">
-          <a class="botaomais" href="#modal-flora">
-            <img src="/img/img-parceiros/addbtn.svg" alt="botao adicionar">
-          </a>
-          <img id="floralogotipo" src="../img/img-parceiros/logos/floralogo.png" alt="">
-        </div>
+      <div class="grid-item" id="floracard">
+        <a class="botaomais" href="#modal-flora">
+          <img src="/img/img-parceiros/addbtn.svg" alt="botao adicionar">
+        </a>
+        <img id="floralogotipo" src="../img/img-parceiros/logos/floralogo.png" alt="">
+      </div>
 
       <div id="modal-picpay" class="modal">
         <div class="modal__content">
+          <div class="bgmodal" id="bgmodalpicpay"></div>
           <h1>PicPay - Carteira Digital</h1>
           <p>
-            O PicPay conhecido como líder na revolução dos meios de pagamento no Brasil, é pioneiro no mercado de carteiras digitais
-            e no uso do QR Code no país. A empresa trabalha para aumentar continuamente sua base de usuários e para elevar a oferta
-            de soluções financeiras que atendam às necessidades do seu público, transformando o PicPay no primeiro “super app
-            financeiro”.
+            O PicPay conhecido como líder na revolução dos meios de pagamento no Brasil, é pioneiro no mercado de
+            carteiras digitais e no uso do QR Code no país. A empresa trabalha para aumentar continuamente sua base de
+            usuários e para elevar a oferta de soluções financeiras que atendam às necessidades do seu público,
+            transformando o PicPay no primeiro “super app financeiro”.
           </p>
           <a href="#" class="modal__close">&times;</a>
         </div>
       </div>
 
-        <div class="grid-item" id="picpaycard">
-          <a class="botaomais" href="#modal-picpay">
-            <img src="/img/img-parceiros/addbtn.svg" alt="botao adicionar">
-          </a>
-          <img id="pplogotipo" src="../img/img-parceiros/logos/picpaylogo.png" alt="logotipo aplicativo picpay">
-        </div>
+      <div class="grid-item" id="picpaycard">
+        <a class="botaomais" href="#modal-picpay">
+          <img src="/img/img-parceiros/addbtn.svg" alt="botao adicionar">
+        </a>
+        <img id="pplogotipo" src="../img/img-parceiros/logos/picpaylogo.png" alt="logotipo aplicativo picpay">
+      </div>
 
       <div id="modal-rural" class="modal">
         <div class="modal__content">
+          <div class="bgmodal" id="bgmodalrural"></div>
           <h1>Canal Rural - Empresa Jonalística</h1>
           <p>
-            O Banco Original é o primeiro banco brasileiro 100% digital. A instituição oferece produtos e serviços inovadores,
+            O Banco Original é o primeiro banco brasileiro 100% digital. A instituição oferece produtos e serviços
+            inovadores,
             com a
             mais alta tecnologia em segurança e as práticas mais modernas do mercado financeiro. Presente em 100% dos
             municípios do
@@ -122,18 +138,20 @@ Brisa, Assim, Phytoderm, Kolene, Karina, No Inset e Mat Inset.
         </div>
       </div>
 
-        <div class="grid-item" id="ruralcard">
-          <a class="botaomais" href="#modal-rural">
-            <img src="../img/img-parceiros/addbtn.svg" alt="botao adicionar">
-          </a>
-          <img id="rurallogotipo" src="/img/img-parceiros/logos/rurallogo.png" alt="">
-        </div>
+      <div class="grid-item" id="ruralcard">
+        <a class="botaomais" href="#modal-rural">
+          <img src="../img/img-parceiros/addbtn.svg" alt="botao adicionar">
+        </a>
+        <img id="rurallogotipo" src="/img/img-parceiros/logos/rurallogo.png" alt="">
+      </div>
 
       <div id="modal-ambar" class="modal">
         <div class="modal__content">
+          <div class="bgmodal" id="bgmodalambar"></div>
           <h1>Âmbar - Instituição de Energia</h1>
           <p>
-            A Âmbar é a empresa de energia da J&F Investimentos. Desenvolve, implanta e explora projetos nos segmentos de Geração
+            A Âmbar é a empresa de energia da J&F Investimentos. Desenvolve, implanta e explora projetos nos segmentos
+            de Geração
             Térmica e Transmissão para contribuir com os novos
             desafios de expansão e diversificação da matriz energética brasileira.
           </p>
@@ -141,20 +159,23 @@ Brisa, Assim, Phytoderm, Kolene, Karina, No Inset e Mat Inset.
         </div>
       </div>
 
-        <div class="grid-item" id="ambarcard">
-          <a class="botaomais" href="#modal-ambar">
-            <img src="/img/img-parceiros/addbtn.svg" alt="botao adicionar">
-          </a>
-          <img id="ambarlogotipo" src="../img/img-parceiros/logos/ambarlogo.png" alt="logotipo empresa ambar energia">
-        </div>
+      <div class="grid-item" id="ambarcard">
+        <a class="botaomais" href="#modal-ambar">
+          <img src="/img/img-parceiros/addbtn.svg" alt="botao adicionar">
+        </a>
+        <img id="ambarlogotipo" src="../img/img-parceiros/logos/ambarlogo.png" alt="logotipo empresa ambar energia">
+      </div>
 
 
       <div id="modal-eldorado" class="modal">
         <div class="modal__content">
+          <div class="bgmodal" id="bgmodaleldorado"></div>
           <h1>Eldorado - Empresa de Celulose</h1>
           <p>
-            A Eldorado Brasil é uma das mais modernas empresas de celulose do mundo. Referência global na produção sustentável de
-            celulose, possui florestas próprias certificadas pelo Forest Stewardship Council ®, formando mais de 100 mil hectares de
+            A Eldorado Brasil é uma das mais modernas empresas de celulose do mundo. Referência global na produção
+            sustentável de
+            celulose, possui florestas próprias certificadas pelo Forest Stewardship Council ®, formando mais de 100 mil
+            hectares de
             áreas de preservação.
           </p>
           <a href="#" class="modal__close">&times;</a>
@@ -162,113 +183,130 @@ Brisa, Assim, Phytoderm, Kolene, Karina, No Inset e Mat Inset.
       </div>
 
 
-        <div class="grid-item" id="eldoradocard">
-          <a class="botaomais" href="#modal-eldorado">
-            <img src="/img/img-parceiros/addbtn.svg" alt="botao adicionar">
-          </a>
-          <img id="eldoradologotipo" src="/img/img-parceiros/logos/eldoradologo.png" alt="logotipo">
-        </div>
+      <div class="grid-item" id="eldoradocard">
+        <a class="botaomais" href="#modal-eldorado">
+          <img src="/img/img-parceiros/addbtn.svg" alt="botao adicionar">
+        </a>
+        <img id="eldoradologotipo" src="/img/img-parceiros/logos/eldoradologo.png" alt="logotipo">
       </div>
-
-
-
-    <div class="navezinha" id="estaginho">
-      <div id="quadradoazul"></div>
-      <p>Estágios</p>
     </div>
 
     <div class="container">
       <div class="title">
-      <h1 class="titulosimg" id="textoprincipal">
-        Aulas <br>
-        <b style="color: #4d71e7;">Práticas</b>
-      </h1>
-      <div class="bgimgs" id="aulaspraticas">
+        <h1 class="titulosimg" id="textoprincipal">
+          Aulas <br>
+          <b style="color: #4d71e7;">Práticas</b>
+        </h1>
+        <div class="bgimgs" id="aulaspraticas">
         </div>
-    </div>
+      </div>
 
 
       <div id="textinho">
         <p id="textoap">
           A Germinare acredita que a base teórica só faz sentido se acompanhada da prática, e, por isso, criou um
-        projeto
-        acadêmico com as aulas práticas remuneradas, que garante a formação de profissionais capacitados para o ambiente de
-        trabalho. Os alunos iniciam os estágios no 2º semestre do 9º ano.
-        Cada vez mais, nós conseguimos oferecer aos nossos alunos oportunidades de adquirir experiências incríveis em conjunto
-        com nossas empresas parceiras. Assim, os estágios durante o ensino médio são apenas a porta de entrada para aqueles
-        que
-        querem ingressar em grandes empresas após completar o curso escolar, tendo em vista um plano de carreira de acordo com
-        seu perfil profissional.
-      </p>
+          projeto
+          acadêmico com as aulas práticas remuneradas, que garante a formação de profissionais capacitados para o
+          ambiente de
+          trabalho. Os alunos iniciam os estágios no 2º semestre do 9º ano.
+          Cada vez mais, nós conseguimos oferecer aos nossos alunos oportunidades de adquirir experiências incríveis em
+          conjunto
+          com nossas empresas parceiras. Assim, os estágios durante o ensino médio são apenas a porta de entrada para
+          aqueles
+          que
+          querem ingressar em grandes empresas após completar o curso escolar, tendo em vista um plano de carreira de
+          acordo com
+          seu perfil profissional.
+        </p>
       </div>
     </div>
 
     <div class="swiftcontainer">
-        <label class="estitulosfriboi" for="swift">
-          <span style="color: #F04E29; text-transform: uppercase;">
-            swift &nbsp; -
-          </span>
-          &nbsp; Líder de Vendas
-        </label>
-        <div class="friboicontent" >
-        <img class="logosestagios"  id="logotiposwift" src="../img/img-parceiros/logos/swiftlogo.png" alt="logo da empresa swift cor branca">
+      <label class="estitulosfriboi" for="swift">
+        <span style="color: #F04E29; text-transform: uppercase;">
+          swift &nbsp; -
+        </span>
+        &nbsp; Líder de Vendas
+      </label>
+      <div class="friboicontent">
+        <div class="container-img">
+          <img class="logosestagios" id="logotiposwift" src="../img/img-parceiros/logos/swiftlogo.png"
+            alt="logo da empresa swift cor branca">
+        </div>
         <p class="textosestagios">
           No primeiro ano dentro com as aulas práticas, os alunos atuam como vendedores nas lojas Swift, exercendo as
           atividades
-          de atendimento ao cliente e organização da loja. Essa etapa agrega muita experiência prática à vida dos jovens,
+          de atendimento ao cliente e organização da loja. Essa etapa agrega muita experiência prática à vida dos
+          jovens,
           fazendo
-          com que tenham mais desenvoltura e tino comercial para vender os produtos. O objetivo desse estágio é fazer com
+          com que tenham mais desenvoltura e tino comercial para vender os produtos. O objetivo desse estágio é fazer
+          com
           que os
           alunos entendam a base operacional de uma grande empresa.
         </p>
-        </div>
       </div>
+    </div>
     </div>
 
     <div class="friboicontainer">
       <label class="estitulosfriboi" for="friboifloraseara">
         <span style="color: #C71C23; text-transform: uppercase;">
-          seara, friboi e flora &nbsp; - 
+          seara, friboi e flora &nbsp; -
         </span>
         &nbsp; Vendedor Externo
       </label>
       <div class="friboicontent">
-        <div class="loguinhos" >
-          <img class="imgfribasbg" id="friboiloguinho" src="../img/img-parceiros/logos/friboilogo.png" alt="logo da empresa swift cor branca">
-          <img class="imgfribasbg" id="searaloguinho" src="../img/img-parceiros/logos/searalogo.png" alt="logo seara">
-          <img class="imgfribasbg" id="floraloguinho" src="../img/img-parceiros/logos/floralogo.png" alt="flora logo">
+        <div class="container-img">
+          <div class="loguinhos">
+            <img class="imgfribasbg" id="friboiloguinho" src="../img/img-parceiros/logos/friboilogo.png"
+              alt="logo da empresa swift cor branca">
+            <img class="imgfribasbg" id="searaloguinho" src="../img/img-parceiros/logos/searalogo.png" alt="logo seara">
+            <img class="imgfribasbg" id="floraloguinho" src="../img/img-parceiros/logos/floralogo.png" alt="flora logo">
+          </div>
         </div>
         <p class="textosestagios">
-          Já adaptados ao ambiente empresarial, os alunos iniciam o 2° estágio com as vendas externas para pequenos e médios
-          varejos. Nesse momento, adquirem habilidades de negociação e aprimoram seu tino comercial, visto que visitam seus
-          clientes varejistas e constroem uma relação de vendas sólida e transparente. O estágio de vendas externas foi estipulado
+          Já adaptados ao ambiente empresarial, os alunos iniciam o 2° estágio com as vendas externas para pequenos e
+          médios
+          varejos. Nesse momento, adquirem habilidades de negociação e aprimoram seu tino comercial, visto que visitam
+          seus
+          clientes varejistas e constroem uma relação de vendas sólida e transparente. O estágio de vendas externas foi
+          estipulado
           para gerar autonomia e responsabilidade nos alunos, assim eles o realizam nas empresas: Seara, Friboi e Flora.
         </p>
       </div>
     </div>
 
     <div class="swiftcontainer">
-        <label class="estitulosfriboi" for="swift">
-          <span style="color: #F04E29; text-transform: uppercase;">
-            swift &nbsp; -
-          </span>
-          &nbsp; Gerente de Loja
-        </label>
-        <div class="friboicontent" >
-        <img class="logosestagios" id="logotiposwift" src="../img/img-parceiros/logos/swiftlogo.png" alt="logo da empresa swift cor branca">
-        
+      <label class="estitulosfriboi" for="swift">
+        <span style="color: #F04E29; text-transform: uppercase;">
+          swift &nbsp; -
+        </span>
+        &nbsp; Gerente de Loja
+      </label>
+      <div class="friboicontent">
+        <div class="container-img">
+          <img class="logosestagios" id="logotiposwift" src="../img/img-parceiros/logos/swiftlogo.png"
+            alt="logo da empresa swift cor branca">
+        </div>
+
         <p class="textosestagios">
-          Após as experiências de vendas, os alunos vão gerir uma loja e assumir uma equipe de funcionários. Nessa etapa, o
-          estudante integra todos os conhecimentos e habilidades adquiridos durante os estágios e aulas e aplica no gerenciamento
-          de uma das unidades das lojas Swift. Essa fase tem como principal objetivo fazer com que o aluno coloque em prática
-          todos os conhecimentos adquiridos durante os anos na Germinare e conquiste crescimento profissional com as habilidades
-          desenvolvidas. Os estágios durante o ensino médio são apenas a porta de entrada para aqueles que querem ingressar em
-          grandes empresas após completar o curso escolar, tendo em vista que a Germinare trilha um plano de carreira para cada
+          Após as experiências de vendas, os alunos vão gerir uma loja e assumir uma equipe de funcionários. Nessa
+          etapa, o
+          estudante integra todos os conhecimentos e habilidades adquiridos durante os estágios e aulas e aplica no
+          gerenciamento
+          de uma das unidades das lojas Swift. Essa fase tem como principal objetivo fazer com que o aluno coloque em
+          prática
+          todos os conhecimentos adquiridos durante os anos na Germinare e conquiste crescimento profissional com as
+          habilidades
+          desenvolvidas. Os estágios durante o ensino médio são apenas a porta de entrada para aqueles que querem
+          ingressar em
+          grandes empresas após completar o curso escolar, tendo em vista que a Germinare trilha um plano de carreira
+          para cada
           aluno, de acordo com seu perfil profissional.
         </p>
-        </div>
       </div>
-      </div>
+    </div>
+    </div>
 
     <div class="origicontainer">
       <label class="estitulosfriboi" for="friboifloraseara">
@@ -278,78 +316,74 @@ Brisa, Assim, Phytoderm, Kolene, Karina, No Inset e Mat Inset.
         &nbsp; Analista Bancário
       </label>
       <div class="friboicontent">
+        <div class="container-img">
           <img class="logosestagios" id="logotiporigi" src="../img/img-parceiros/logos/originallogo.png" alt="">
-        
+        </div>
+
         <p class="textosestagios">
-          Alguns alunos do 9° e 1° ano foram convocados, de acordo com as suas habilidades e interesses, para ingressarem na
-          trajetória de finanças no Banco Original. O intuito é promover experiências enriquecedoras para a carreira profissional
-          dentro de uma instituição financeiro. Com isso, os estudantes passarão por diversas áreas, incluindo: Seguros, Cartões,
+          Alguns alunos do 9° e 1° ano foram convocados, de acordo com as suas habilidades e interesses, para
+          ingressarem na
+          trajetória de finanças no Banco Original. O intuito é promover experiências enriquecedoras para a carreira
+          profissional
+          dentro de uma instituição financeiro. Com isso, os estudantes passarão por diversas áreas, incluindo: Seguros,
+          Cartões,
           Tesouraria, entre outras para aprender como cada setor contribui para o funcionamento da empresa.
         </p>
       </div>
-      </div>
+    </div>
     </div>
 
-        <div class="piccontainer">
-          <label class="estitulosfriboi" for="friboifloraseara">
-            <span style="color: #21C25E; text-transform: uppercase;">
-              picpay &nbsp; -
-            </span>
-            &nbsp; Desenvolvedor
-          </label>
-          <div class="friboicontent">
-            <img class="logosestagios" id="logotippic" src="../img/img-parceiros/logos/picpaylogo.png" alt="">
-          <p class="textosestagios">
-            O Picpay iniciou sua trajetória de estágio em 2020, com apenas 11 candidatos com interesse na trajetória da tecnologia.
-            Os alunos iniciam sua jornada nas áreas de operação, como as de Relacionamento e Prevenção a Fraude, com o intuito de
-            entender os perfis de usuários no aplicativo. Em seguida, os alunos são direcionados para outras áreas da empresa, como
-            a de desenvolvimento, em que terão a oportunidade de entregar demandas reais para a empresa.
-          </p>
-          </div>
-        </div>
+    <div class="piccontainer">
+      <label class="estitulosfriboi" for="friboifloraseara">
+        <span style="color: #21C25E; text-transform: uppercase;">
+          picpay &nbsp; -
+        </span>
+        &nbsp; Desenvolvedor
+      </label>
+      <div class="friboicontent">
+        <div class="container-img">
+          <img class="logosestagios" id="logotippic" src="../img/img-parceiros/logos/picpaylogo.png" alt="">
         </div>
 
-              <div class="jbscontainer">
-                <label class="estitulosfriboi" for="friboifloraseara">
-                  <span style="color: #ED1D24; text-transform: uppercase;">
-                      jbs &nbsp; -
-                  </span>
-                  &nbsp; Analista de Mercado Financeiro
-                </label>
-                <div class="friboicontent">
-                  <img class="logosestagios" id="logotippic" src="../img/img-parceiros/logos/jbslogo.png" alt="">
-                <p class="textosestagios">
-                  No primeiro semestre de 2021, demos início ao estágio na área de Mercado de Capitais com alguns alunos do Ensino Médio.
-                  Essa área possibilita que os estagiários coloquem em prática os conhecimentos adquiridos nas aulas da Academia Original,
-                  assim lidam diariamente com situações reais do mercado financeiro e realizam negociações envolvendo compra e venda de
-                  ativos variados.
-                </p>
-                </div>
-              </div>
-              </div>
-  
-                  <div class="navezinha" id="supervisorezinhos">
-                    <div id="quadradoazul"></div>
-                    <p>Programa de Formação</p>
-                  </div>
-        <div class="alunosforad" >
-          </div>
-          <div class="titulosimg" >
-          <h1 id="textinhosuper">
-          alunos fora de<br>
-        <b style="color: #4d71e7;">São Paulo</b>
+        <p class="textosestagios">
+          O Picpay iniciou sua trajetória de estágio em 2020, com apenas 11 candidatos com interesse na trajetória da
+          tecnologia.
+          Os alunos iniciam sua jornada nas áreas de operação, como as de Relacionamento e Prevenção a Fraude, com o
+          intuito de
+          entender os perfis de usuários no aplicativo. Em seguida, os alunos são direcionados para outras áreas da
+          empresa, como
+          a de desenvolvimento, em que terão a oportunidade de entregar demandas reais para a empresa.
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <div class="jbscontainer">
+      <label class="estitulosfriboi" for="friboifloraseara">
+        <span style="color: #ED1D24; text-transform: uppercase;">
+          jbs &nbsp; -
+        </span>
+        &nbsp; Analista de Mercado Financeiro
+      </label>
+      <div class="friboicontent">
+        <div class="container-img">
+          <img class="logosestagios" id="logotippic" src="../img/img-parceiros/logos/jbslogo.png" alt="">
         </div>
-      </h1>
-      <div>
-      <p class="texto-conclusao">Após a conclusão do Ensino Médio, alguns ex-alunos são selecionados para assumirem um cargo de supervisão de vendas, em
-      que cada um é responsável por liderar uma equipe de vendedores em diferentes cidades do país. A proposta desafiadora
-      estimula os novos gestores a saírem de sua zona de conforto e explorarem suas habilidades.
-      A escola Germinare elaborou o programa de supervisores para os estudantes recém-formados, para aprimorar o conhecimento
-      adquirido pelos alunos durante sua formação. Com essa nova etapa, os alunos tornam-se mais preparados para assumirem
-      grandes responsabilidades dentro do ambiente de trabalho.
-</p>
-        </div>
-    </main>
-    <footer>
-    </footer>
+        <p class="textosestagios">
+          No primeiro semestre de 2021, demos início ao estágio na área de Mercado de Capitais com alguns alunos do
+          Ensino Médio.
+          Essa área possibilita que os estagiários coloquem em prática os conhecimentos adquiridos nas aulas da Academia
+          Original,
+          assim lidam diariamente com situações reais do mercado financeiro e realizam negociações envolvendo compra e
+          venda de
+          ativos variados.
+        </p>
+      </div>
+    </div>
+    </div>
+
+    </div>
+  </main>
+  <script src="../scripts/main-parceiros.js"></script>
+  </body>
 </html>
